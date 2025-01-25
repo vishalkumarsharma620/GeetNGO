@@ -1,0 +1,68 @@
+.contents{
+    min-height: 800px;
+    width: 95%;
+    background-color: transparent;
+    position: relative;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contents2{
+    top: 0px;
+}
+
+.card {
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    overflow: scroll;
+}
+
+.healthcard{
+    height: 3000px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    overflow: scroll;
+}
+
+.healthcard .p{
+    height: 60%;
+    width: 80%;
+    position: relative;
+    top: 70px;
+    left: 50px;
+    font-size: 1em;
+    
+}
+
+.card1 {
+    min-height: 800px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+.card::-webkit-scrollbar {
+    display: none;
+}
+.healthcard::-webkit-scrollbar {
+    display: none;
+}
+
+h3{
+    position: relative;
+    top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+.p{
+    height: 60%;
+    width: 80%;
+    position: relative;
+    top: 70px;
+    font-size: 1em;
+}

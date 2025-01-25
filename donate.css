@@ -1,0 +1,76 @@
+.donateform{
+    height: 520px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.donateform .msg{
+    width: 80%;
+    margin-left: 10%;
+    height: 20%;
+    border-bottom: 4px solid rgb(0, 167, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.donateform .msg2{
+    height: 10%;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(5, 182, 5);
+}
+
+#form{
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    position: relative;
+    top: 30px;
+}
+
+.input{
+    margin-left: 8%;
+    height: 40px;
+    width: 75%;
+    position: relative;
+    top: -30px;
+    padding-left: 4px;
+    font-size: 25px;
+    
+}
+
+.input:focus{
+    outline: none;
+}
+
+#donatebtn{
+    margin-left: 8%;
+    height: 50px;
+    width: 75%;
+    border-radius: 5px;
+    background-color: rgb(0, 182, 88);
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
