@@ -20,7 +20,7 @@
     height: 80vh;
     width: 95%;
     position: relative;
-    background-image: url('/children-banner.jpeg');
+    background-image: url('children-banner.jpeg');
     background-size: cover;
     top: 30px;
 }
@@ -30,17 +30,17 @@
 }
 
 #eduhero{
-    background-image: url('/eduimg-transformed.jpeg');
+    background-image: url('eduimg-transformed.jpeg');
     background-size: cover;
 }
 
 #healthhero1{
-    background-image: url('/health-camp.jpg');
+    background-image: url('health-camp.jpg');
     background-size: cover;
 }
 
 #healthhero2{
-    background-image: url('/health.jpg');
+    background-image: url('health.jpg');
     background-size: cover;
     top: 0px;
 }

@@ -7,15 +7,15 @@ var about = document.getElementById('opt5');
 var donatebtn = document.querySelector('.donatebtn');
 
 home.addEventListener('click', ()=>{
-    window.location.href = "/index.html";
+    window.location.href = "index.html";
 });
 
 education.addEventListener('click', ()=>{
-    window.location.href = "/education.html";
+    window.location.href = "education.html";
 });
 
 health.addEventListener('click', ()=>{
-    window.location.href = "/health.html";
+    window.location.href = "health.html";
 });
 
 article.addEventListener('click', ()=>{
@@ -27,5 +27,5 @@ about.addEventListener('click', ()=>{
 });
 
 donatebtn.addEventListener('click', ()=>{
-    window.location.href = "/donate.html";
+    window.location.href = "donate.html";
 });
