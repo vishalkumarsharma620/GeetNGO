@@ -1,4 +1,4 @@
-.contents{
+.contents {
     min-height: 800px;
     width: 95%;
     background-color: transparent;
@@ -8,61 +8,82 @@
     flex-direction: column;
 }
 
-#contents2{
+#contents2 {
     top: 0px;
 }
 
-.card {
+#card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: rgba(0, 164, 123, 0.666);
+}
+
+.card1 {
     height: 400px;
     background-color: rgb(255, 255, 255);
     align-items: center;
     overflow: scroll;
+    box-shadow: 1px 1px 5px rgba(173, 164, 164, 0.681);
 }
 
-.healthcard{
-    height: 3000px;
+.card2 {
+    height: 400px;
     background-color: rgb(255, 255, 255);
     align-items: center;
     overflow: scroll;
+    box-shadow: 1px 1px 5px rgba(173, 164, 164, 0.681);
 }
 
-.healthcard .p{
-    height: 60%;
-    width: 80%;
-    position: relative;
-    top: 70px;
-    left: 50px;
-    font-size: 1em;
-    
+
+.card1::-webkit-scrollbar {
+    display: none;
 }
 
-.card1 {
-    min-height: 800px;
-    background-color: rgb(255, 255, 255);
+.card2::-webkit-scrollbar {
+    display: none;
+}
+
+
+.templet {
+    height: 75%;
+    width: 30%;
+    box-shadow: inset 0.5px 0.5px 4px rgba(128, 128, 128, 0.39);
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: scroll;
+    justify-content: center;
+    text-align: center;
 }
 
-.card::-webkit-scrollbar {
-    display: none;
-}
-.healthcard::-webkit-scrollbar {
-    display: none;
-}
-
-h3{
-    position: relative;
-    top: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.5rem;
+.p {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
 }
 
-.p{
-    height: 60%;
-    width: 80%;
-    position: relative;
-    top: 70px;
-    font-size: 1em;
-}
+
+  @media only screen and (max-width: 900px) {
+
+    .card1{
+        height: 600px;
+    }
+
+    .card2{
+        height: 1000px;
+    }
+   
+    .p{
+        flex-direction: column;
+        padding-bottom: 90px;
+    }
+    .p .templet{
+        width: 95%;
+        margin-top: 20px;
+    }
+  }
