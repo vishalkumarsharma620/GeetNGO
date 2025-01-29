@@ -71,7 +71,7 @@
   @media only screen and (max-width: 900px) {
 
     .card1{
-        height: 600px;
+        height: 850px;
     }
 
     .card2{
@@ -82,8 +82,15 @@
         flex-direction: column;
         padding-bottom: 90px;
     }
+
+
     .p .templet{
         width: 95%;
         margin-top: 20px;
+        height: 100%;
+    }
+
+    #typing{
+        font-size: 40px;
     }
   }
